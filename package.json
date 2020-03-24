@@ -1,0 +1,29 @@
+{
+  "name": "auth2-project",
+  "version": "1.0.0",
+  "description": "## Topics",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeribertoGalvezGarcia/node-auth2-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeribertoGalvezGarcia/node-auth2-project/issues"
+  },
+  "homepage": "https://github.com/HeribertoGalvezGarcia/node-auth2-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.2"
+  }
+}
